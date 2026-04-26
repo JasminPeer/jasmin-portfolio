@@ -7,6 +7,7 @@ export default function Contact() {
   const inView = useInView(ref, { once:true, margin:'-60px' })
   const [form, setForm] = useState({ name:'', email:'', message:'' })
   const [sent, setSent] = useState(false)
+<<<<<<< HEAD
   const [loading, setLoading] = useState(false)
 
   const handleSubmit = async (e) => {
@@ -45,6 +46,8 @@ export default function Contact() {
       setLoading(false);
     }
   };
+=======
+>>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
 
   const contacts = [
     { icon:'✉️', label:'Email', val:data.email, href:`mailto:${data.email}` },
@@ -93,7 +96,11 @@ export default function Contact() {
                 <button onClick={()=>setSent(false)} className="btn-outline text-xs" data-h>Send another</button>
               </motion.div>
             ) : (
+<<<<<<< HEAD
               <form onSubmit={handleSubmit} className="card-base p-8 flex flex-col gap-5">
+=======
+              <form onSubmit={e=>{e.preventDefault();setSent(true)}} className="card-base p-8 flex flex-col gap-5">
+>>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex flex-col gap-2">
                     <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Name</label>
@@ -108,9 +115,15 @@ export default function Contact() {
                   <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Message</label>
                   <textarea required rows={5} className="inp resize-none" placeholder="Tell me about the opportunity..." value={form.message} onChange={e=>setForm({...form,message:e.target.value})}/>
                 </div>
+<<<<<<< HEAD
                 <button type="submit" disabled={loading} data-h className="btn-dark self-start disabled:opacity-70 disabled:cursor-not-allowed">
                   {loading ? 'Sending...' : 'Send Message'}
                   {!loading && <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>}
+=======
+                <button type="submit" data-h className="btn-dark self-start">
+                  Send Message
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+>>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
                 </button>
               </form>
             )}
