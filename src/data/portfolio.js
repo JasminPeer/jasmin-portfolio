@@ -123,6 +123,21 @@ export const data = {
       ],
     },
     {
+  name: "ZADES T-Shirt Website",
+  subtitle: "T-Shirt Store · Frontend Web",
+  description: "A modern t-shirt e-commerce website showcasing stylish collections with smooth UI, product display, and responsive design.",
+  icon: "👕",
+  gradient: "from-gray-200 to-gray-300",
+  color: "#111827",
+  liveUrl: "https://jasminpeer.github.io/tshirt_website/",
+  tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+  highlights: [
+    "Clean and modern UI design",
+    "Responsive layout for all devices",
+    "Product showcase with smooth navigation",
+  ],
+},
+    {
       name: 'Thread Sphere',
       subtitle: '3D T-Shirt Customizer',
       description: 'An interactive 3D t-shirt customization tool that lets users design and preview custom tees in real time.',
