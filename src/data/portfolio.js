@@ -1,27 +1,26 @@
-<<<<<<< HEAD
+
 import resumePdf from '../assest/Jas_Resume.pdf';
 
-=======
->>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
+
 export const data = {
   name: "Jasmin Fathima P",
   title: "MERN Stack Developer",
   roles: ["MERN Stack Developer", "Full-Stack Engineer", "React Developer", "Node.js Developer", "REST API Builder"],
   tagline: "Building scalable, secure, and elegant web applications — from REST APIs to real-time interfaces.",
   location: "Namakkal, Tamil Nadu",
-<<<<<<< HEAD
+
   email: "jasminpeer006@gmail.com",
   phone: "9047072417",
   github: "https://github.com/JasminPeer",
   linkedin: "https://linkedin.com/in/jasmin-fathima",
   resumeUrl: resumePdf,
-=======
+
   email: "jasmineer006@gmail.com",
   phone: "9047072417",
   github: "https://github.com/JasminPeer",
   linkedin: "https://linkedin.com/in/jasmin-fathima",
   resumeUrl: "#",
->>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
+
 
   about: "I'm an Information Science undergraduate at Bannari Amman Institute of Technology, passionate about crafting full-stack web applications that solve real problems. I specialize in the MERN stack — building secure authentication systems, RESTful APIs, and intuitive user interfaces. I believe in writing clean, maintainable code that scales gracefully.",
 
@@ -45,7 +44,6 @@ export const data = {
   skills: {
     core: [
       { name: "MongoDB", level: 88, icon: "🍃", color: "#10B981" },
-<<<<<<< HEAD
       { name: "React.js", level: 75, icon: "⚛️", color: "#3B82F6" },
       { name: "Express.js", level: 75, icon: "🚂", color: "#6D28D9" },
       { name: "Node.js", level: 75, icon: "🟢", color: "#22C55E" },
@@ -55,7 +53,7 @@ export const data = {
       { name: "Java", level: 30, icon: "☕", color: "#F97316", text: false },
       { name: "C", level: 40, icon: "⚙️", color: "#64748B", text: false },
       { name: "SQL", level: 50, icon: "🗄️", color: "#3B82F6", text: false },
-=======
+
       { name: "React.js", level: 90, icon: "⚛️", color: "#3B82F6" },
       { name: "Express.js", level: 85, icon: "🚂", color: "#6D28D9" },
       { name: "Node.js", level: 87, icon: "🟢", color: "#22C55E" },
@@ -65,7 +63,7 @@ export const data = {
       { name: "Java", level: 78, icon: "☕", color: "#EF4444" },
       { name: "C", level: 75, icon: "C", color: "#6366F1", text: true },
       { name: "SQL", level: 80, icon: "🗃️", color: "#0EA5E9" },
->>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
+
     ],
     tools: ["Git & GitHub", "Figma", "VS Code", "Postman", "JWT Auth", "REST APIs", "CRUD", "RBAC", "MongoDB Atlas", "Bootstrap"],
   },
@@ -83,7 +81,7 @@ export const data = {
       highlights: ["Admin & Student dashboards", "Certificate generation", "Structured assessments"],
     },
     {
-<<<<<<< HEAD
+
       name: 'Sree Bhagavathy Clothing',
       subtitle: 'Fabric Store · E-Commerce',
       description: 'A full-featured fabric and clothing store with product browsing, cart functionality, and a clean shopping experience.',
@@ -142,7 +140,7 @@ export const data = {
         'Custom color and design picker',
         'Smooth 3D rendering with Three.js',
       ],
-=======
+
       name: "LifeSpectra",
       subtitle: "Online Blood Banking System",
       description: "A full-stack MERN application enabling role-based access for Donors, Hospitals, and Patients. Features appointment scheduling, automated blood allocation, and secure JWT authentication.",
@@ -163,7 +161,7 @@ export const data = {
       icon: "⚡",
       liveUrl: null,
       highlights: ["Browser-based coding", "Modular training", "Interactive interface"],
->>>>>>> cd9258085e96bc2f69d3a126ba76b779729af5a8
+
     },
   ],
 }
