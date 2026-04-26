@@ -39,28 +39,28 @@ export const data = {
 
   skills: {
     core: [
-      { name: "MongoDB", level: 88, icon: "🍃", color: "#10B981" },
-      { name: "React.js", level: 75, icon: "⚛️", color: "#3B82F6" },
-      { name: "Express.js", level: 75, icon: "🚂", color: "#6D28D9" },
-      { name: "Node.js", level: 75, icon: "🟢", color: "#22C55E" },
+      { name: "MongoDB", level: 80, icon: "🍃", color: "#10B981" },
+      { name: "React.js", level: 70, icon: "⚛️", color: "#3B82F6" },
+      { name: "Express.js", level: 60, icon: "🚂", color: "#6D28D9" },
+      { name: "Node.js", level: 60, icon: "🟢", color: "#22C55E" },
     ],
     languages: [
-      { name: "JavaScript", level: 75, icon: "JS", color: "#F59E0B", text: true },
+      { name: "JavaScript", level: 60, icon: "JS", color: "#F59E0B", text: true },
       { name: "Java", level: 30, icon: "☕", color: "#F97316", text: false },
       { name: "C", level: 40, icon: "⚙️", color: "#64748B", text: false },
       { name: "SQL", level: 50, icon: "🗄️", color: "#3B82F6", text: false },
 
-      { name: "React.js", level: 90, icon: "⚛️", color: "#3B82F6" },
-      { name: "Express.js", level: 85, icon: "🚂", color: "#6D28D9" },
-      { name: "Node.js", level: 87, icon: "🟢", color: "#22C55E" },
+      { name: "React.js", level: 70, icon: "⚛️", color: "#3B82F6" },
+      { name: "Express.js", level: 60, icon: "🚂", color: "#6D28D9" },
+      { name: "Node.js", level: 60, icon: "🟢", color: "#22C55E" },
     ],
-    languages: [
-      { name: "JavaScript", level: 92, icon: "JS", color: "#F59E0B", text: true },
-      { name: "Java", level: 78, icon: "☕", color: "#EF4444" },
-      { name: "C", level: 75, icon: "C", color: "#6366F1", text: true },
-      { name: "SQL", level: 80, icon: "🗃️", color: "#0EA5E9" },
+    // languages: [
+    //   { name: "JavaScript", level:60, icon: "JS", color: "#F59E0B", text: true },
+    //   { name: "Java", level: 78, icon: "☕", color: "#EF4444" },
+    //   { name: "C", level: 75, icon: "C", color: "#6366F1", text: true },
+    //   { name: "SQL", level: 80, icon: "🗃️", color: "#0EA5E9" },
 
-    ],
+    // ],
     tools: ["Git & GitHub", "Figma", "VS Code", "Postman", "JWT Auth", "REST APIs", "CRUD", "RBAC", "MongoDB Atlas", "Bootstrap"],
   },
 
