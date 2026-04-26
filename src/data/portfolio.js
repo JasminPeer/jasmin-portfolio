@@ -15,11 +15,7 @@ export const data = {
   linkedin: "https://linkedin.com/in/jasmin-fathima",
   resumeUrl: resumePdf,
 
-  email: "jasmineer006@gmail.com",
-  phone: "9047072417",
-  github: "https://github.com/JasminPeer",
-  linkedin: "https://linkedin.com/in/jasmin-fathima",
-  resumeUrl: "#",
+  
 
 
   about: "I'm an Information Science undergraduate at Bannari Amman Institute of Technology, passionate about crafting full-stack web applications that solve real problems. I specialize in the MERN stack — building secure authentication systems, RESTful APIs, and intuitive user interfaces. I believe in writing clean, maintainable code that scales gracefully.",
