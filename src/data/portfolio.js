@@ -11,7 +11,7 @@ export const data = {
   email: "jasminpeer006@gmail.com",
   phone: "9047072417",
   github: "https://github.com/JasminPeer",
-  linkedin: "www.linkedin.com/in/jasmin-fathima-peer-964416300",
+  linkedin: "https://www.linkedin.com/in/jasmin-fathima-peer-964416300/",
   resumeUrl: resumePdf,
 
   
