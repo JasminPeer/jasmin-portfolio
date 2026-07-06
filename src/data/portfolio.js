@@ -30,7 +30,7 @@ export const data = {
     },
     {
       degree: "Higher Secondary Education",
-      institution: "Tamil Nadu State Board",
+      institution: "Government Higher Secondary School",
       period: "2022 – 2023",
       score: "81.5%",
       active: false,
