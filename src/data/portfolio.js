@@ -1,4 +1,3 @@
-
 import resumePdf from '../assest/Jas_Resume.pdf';
 
 
@@ -174,27 +173,15 @@ export const data = {
   },
 
   {
-    name: "LifeSpectra",
-    subtitle: "Online Blood Banking System",
-    description: "A full-stack MERN application...",
-    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "REST API"],
-    color: "#EF4444",
-    gradient: "from-red-50 via-rose-50 to-pink-50",
-    icon: "🩸",
-    liveUrl: null,
-    highlights: ["Role-based auth (3 modules)", "Automated blood allocation", "JWT secured APIs"],
-  },
-
-  {
-    name: "MERNHub",
-    subtitle: "MERN Stack Learning Platform",
-    description: "A modular learning platform...",
-    tech: ["MongoDB", "React.js", "Express.js", "Node.js"],
-    color: "#06B6D4",
-    gradient: "from-cyan-50 via-teal-50 to-emerald-50",
-    icon: "⚡",
-    liveUrl: null,
-    highlights: ["Browser-based coding", "Modular training", "Interactive interface"],
+    name: "EduPath Learning App",
+    subtitle: "UI/UX Case Study · Edu-Tech",
+    description: "A Figma prototype for an education app focused on course learning and quiz design, exploring intuitive navigation and engaging interaction patterns for online learners.",
+    tech: ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
+    color: "#8B5CF6",
+    gradient: "from-purple-50 via-violet-50 to-fuchsia-50",
+    icon: "🎨",
+    liveUrl: "https://www.figma.com/proto/NG2B2eVEiGmhUoCqF0mEHy/education-app?node-id=1-6&starting-point-node-id=1%3A6&t=Ht71hFgVFeqv0frj-1",
+    highlights: ["Course learning flow design", "Interactive quiz UI", "Clean, learner-friendly navigation"],
   }
 ]
 }
