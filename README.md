@@ -31,7 +31,7 @@ Follow the prompts — your site is live in ~60 seconds!
 3. Import your GitHub repo
 4. Click **Deploy** — done!
 
-Your live URL: `https://jasmin-portfolio.vercel.app`
+Your live URL: `https://jasmin-portfolio-two.vercel.app/`
 
 ---
 
