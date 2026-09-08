@@ -75,7 +75,21 @@ export const data = {
     liveUrl: "https://smart-learning-frontend.onrender.com/",
     highlights: ["Admin & Student dashboards", "Certificate generation", "Structured assessments"],
   },
-
+ {
+    name: "ZADES T-Shirt Website",
+    subtitle: "T-Shirt Store · Frontend Web",
+    description: "A modern t-shirt e-commerce website...",
+    icon: "👕",
+    gradient: "from-gray-200 to-gray-300",
+    color: "#111827",
+    liveUrl: "https://jasminpeer.github.io/zades_tshirts/",
+    tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    highlights: [
+      "Clean and modern UI design",
+      "Responsive layout for all devices",
+      "Product showcase with smooth navigation",
+    ],
+  },
   {
     name: 'Sree Bhagavathy Clothing',
     subtitle: 'Fabric Store · E-Commerce',
@@ -124,37 +138,23 @@ export const data = {
     ],
   },
 
-  {
-    name: "ZADES T-Shirt Website",
-    subtitle: "T-Shirt Store · Frontend Web",
-    description: "A modern t-shirt e-commerce website...",
-    icon: "👕",
-    gradient: "from-gray-200 to-gray-300",
-    color: "#111827",
-    liveUrl: "https://jasminpeer.github.io/zades_tshirts/",
-    tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-    highlights: [
-      "Clean and modern UI design",
-      "Responsive layout for all devices",
-      "Product showcase with smooth navigation",
-    ],
-  },
+  
 
-  {
-    name: "FitZone Gym Website",
-    subtitle: "Fitness · Gym Landing Page",
-    description: "A modern gym website...",
-    icon: "🏋️",
-    gradient: "from-green-200 to-emerald-300",
-    color: "#059669",
-    liveUrl: "https://jasminpeer.github.io/gym_website/",
-    tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-    highlights: [
-      "Attractive fitness-themed UI design",
-      "Responsive layout for mobile and desktop",
-      "Sections for membership, trainers, and services",
-    ],
-  },
+  // {
+  //   name: "FitZone Gym Website",
+  //   subtitle: "Fitness · Gym Landing Page",
+  //   description: "A modern gym website...",
+  //   icon: "🏋️",
+  //   gradient: "from-green-200 to-emerald-300",
+  //   color: "#059669",
+  //   liveUrl: "https://jasminpeer.github.io/gym_website/",
+  //   tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+  //   highlights: [
+  //     "Attractive fitness-themed UI design",
+  //     "Responsive layout for mobile and desktop",
+  //     "Sections for membership, trainers, and services",
+  //   ],
+  // },
 
   // {
   //   name: 'Thread Sphere',
