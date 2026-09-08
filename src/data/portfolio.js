@@ -131,7 +131,7 @@ export const data = {
     icon: "👕",
     gradient: "from-gray-200 to-gray-300",
     color: "#111827",
-    liveUrl: "https://jasminpeer.github.io/tshirt_website/",
+    liveUrl: "https://jasminpeer.github.io/zades_tshirts/",
     tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     highlights: [
       "Clean and modern UI design",
@@ -156,21 +156,21 @@ export const data = {
     ],
   },
 
-  {
-    name: 'Thread Sphere',
-    subtitle: '3D T-Shirt Customizer',
-    description: 'An interactive 3D t-shirt customization tool...',
-    icon: '👕',
-    gradient: 'from-cyan-200 to-teal-300',
-    color: '#0D9488',
-    liveUrl: 'https://thread-sphere-3d-shop.lovable.app',
-    tech: ['React', 'Three.js', 'Lovable'],
-    highlights: [
-      'Real-time 3D t-shirt preview',
-      'Custom color and design picker',
-      'Smooth 3D rendering with Three.js',
-    ],
-  },
+  // {
+  //   name: 'Thread Sphere',
+  //   subtitle: '3D T-Shirt Customizer',
+  //   description: 'An interactive 3D t-shirt customization tool...',
+  //   icon: '👕',
+  //   gradient: 'from-cyan-200 to-teal-300',
+  //   color: '#0D9488',
+  //   liveUrl: 'https://thread-sphere-3d-shop.lovable.app',
+  //   tech: ['React', 'Three.js', 'Lovable'],
+  //   highlights: [
+  //     'Real-time 3D t-shirt preview',
+  //     'Custom color and design picker',
+  //     'Smooth 3D rendering with Three.js',
+  //   ],
+  // },
 
   {
     name: "EduPath Learning App",
