@@ -24,7 +24,7 @@ export const data = {
       degree: "B.E. Information Science and Engineering",
       institution: "Bannari Amman Institute of Technology",
       period: "2023 – Present",
-      score: "CGPA: 7.53 / 10",
+      score: "CGPA: 7.5 / 10",
       active: true,
     },
     {
@@ -45,9 +45,9 @@ export const data = {
     ],
     languages: [
       { name: "JavaScript", level: 60, icon: "JS", color: "#F59E0B", text: true },
-      { name: "Java", level: 30, icon: "☕", color: "#F97316", text: false },
-      { name: "C", level: 40, icon: "⚙️", color: "#64748B", text: false },
-      { name: "SQL", level: 50, icon: "🗄️", color: "#3B82F6", text: false },
+      // { name: "Java", level: 30, icon: "☕", color: "#F97316", text: false },
+      // { name: "C", level: 40, icon: "⚙️", color: "#64748B", text: false },
+      { name: "SQL", level: 70, icon: "🗄️", color: "#3B82F6", text: false },
 
       { name: "React.js", level: 70, icon: "⚛️", color: "#3B82F6" },
       { name: "Express.js", level: 60, icon: "🚂", color: "#6D28D9" },
