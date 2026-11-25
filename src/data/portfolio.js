@@ -64,6 +64,53 @@ export const data = {
   },
 
   projects: [
+    {
+  name: "ASIA EXPLORA",
+  subtitle: "Smart Tourism & Heritage Management System",
+  description: "An interactive tourism platform covering 48 Asian countries and 249 destinations. It helps users explore heritage sites, discover tourist attractions, navigate multi-waypoint routes, experience virtual tours, and access travel information through an AI-powered travel assistant.",
+  icon: "🌏",
+  gradient: "from-cyan-100 via-blue-100 to-indigo-200",
+  color: "#2563EB",
+  liveUrl: "https://asian-tourism-pi.vercel.app/",
+  tech: [
+    "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "Three.js",
+    "Leaflet.js",
+    "Tailwind CSS",
+    "Gemini API"
+  ],
+  highlights: [
+    "Tourism information covering 48 Asian countries and 249 destinations",
+    "Interactive maps with multi-waypoint walking routes",
+    "360° virtual tours and immersive destination exploration",
+    "AI-powered travel assistant and weather information"
+  ],
+},
+    {
+  name: "Clinic Website",
+  subtitle: "Healthcare · Responsive Web Development",
+  description: "A modern and responsive clinic website designed to provide patients with easy access to healthcare information, doctor details, clinic services, and appointment enquiries through a user-friendly interface.",
+  icon: "🏥",
+  gradient: "from-emerald-100 via-teal-100 to-cyan-100",
+  color: "#0D9488",
+  liveUrl: "https://clinic-demo-yuxd-indol.vercel.app/",
+  tech: [
+    "React.js",
+    "JavaScript",
+    "CSS",
+    "Responsive Web Design",
+    "Vercel"
+  ],
+  highlights: [
+    "Modern healthcare-focused user interface",
+    "Responsive design for mobile and desktop",
+    "Clinic services and doctor information sections",
+    "Patient-friendly appointment enquiry experience"
+  ],
+},
   {
     name: "LearniQ",
     subtitle: "Learning Progress Intelligence System",
