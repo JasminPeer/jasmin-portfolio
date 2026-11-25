@@ -1,4 +1,4 @@
-import resumePdf from '../assest/Jas_Resume.pdf';
+import resumePdf from '../assest/Jasmin_Fathima_Resume.pdf';
 
 
 export const data = {
